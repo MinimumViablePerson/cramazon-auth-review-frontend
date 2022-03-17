@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.order-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.order {
+  list-style: none;
+  border: solid 1px black;
+  border-radius: 5px;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  place-items: center;
+}
